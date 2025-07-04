@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~GY9EjYDT#rJwv3HM5OSPQMe9D_yda6ccO-_uSC7q_uBLJhrj0Otk",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~7EcjCZwS#rYeizWzQiWfhs8eU8dpmvkbcUeDdZKU-Q7Q_My259AI",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "off",
 // add your Session Id 
@@ -21,7 +21,7 @@ WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
 GOODBYE: process.env.GOODBYE || "true",
 // true if want goodbye msg in groups 
-ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
+ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "true",
