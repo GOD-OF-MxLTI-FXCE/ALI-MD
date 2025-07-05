@@ -5,15 +5,15 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~7EcjCZwS#rYeizWzQiWfhs8eU8dpmvkbcUeDdZKU-Q7Q_My259AI",  
+SESSION_ID: process.env.SESSION_ID || "",  
 //chatbot integration 
-CHATBOT: process.env.CHATBOT || "on",
+CHATBOT: process.env.CHATBOT || "off",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
 // set the auto reply massage on status reply  
@@ -23,11 +23,11 @@ GOODBYE: process.env.GOODBYE || "true",
 // true if want goodbye msg in groups 
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
-ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "true",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "false",
 ANTI_LINK_DELETE: process.env.ANTI_LINK_DELETE || "true",
 // make anti link true,false for groups
-ANTI_CALL: process.env.ANTI_CALL || "true",
+ANTI_CALL: process.env.ANTI_CALL || "false",
 REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
@@ -36,7 +36,7 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://qu.ax/zrqFX.jpg",
 // add custom menu image url
 PREFIX: process.env.PREFIX || ".", 
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "𒋲𝐊⃤𝐈𝐍𝐆⃤ 𝐀𝐍𝐃 𝐐⃤𝐔⃝𝐄𝐍𝐍𒋲",
+BOT_NAME: process.env.BOT_NAME || "",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "⚠️👑⚜️",    
 VPS: process.env.VPS || "",
@@ -46,7 +46,7 @@ OWNER_REACT: process.env.OWNER_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "50932818924",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "123456789",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "𝐃      𝐀      𝐑      𝐊      𝐒      𝐄      𝐈      𝐃",
 // add bot owner name
