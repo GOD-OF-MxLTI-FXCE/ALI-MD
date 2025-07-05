@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "ALI-MD~7EcjCZwS#rYeizWzQiWfhs8eU8dpmvkbcUeDdZKU-Q7Q_My259AI",  
 //chatbot integration 
-CHATBOT: process.env.CHATBOT || "off",
+CHATBOT: process.env.CHATBOT || "on",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -17,7 +17,7 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
 // set the auto reply massage on status reply  
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome msg in groups
 GOODBYE: process.env.GOODBYE || "true",
 // true if want goodbye msg in groups 
