@@ -34,7 +34,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 ALIVE_IMG: process.env.ALIVE_IMG || "https://qu.ax/zrqFX.jpg",
 // add custom menu image url
-PREFIX: process.env.PREFIX || ".", 
+PREFIX: process.env.PREFIX || "@", 
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "",
 // add bot namw here for menu
@@ -46,7 +46,7 @@ OWNER_REACT: process.env.OWNER_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "123456789",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "50932818924",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "𝐃      𝐀      𝐑      𝐊      𝐒      𝐄      𝐈      𝐃",
 // add bot owner name
