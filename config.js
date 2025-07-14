@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~7EcjCZwS#rYeizWzQiWfhs8eU8dpmvkbcUeDdZKU-Q7Q_My259AI",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~6BEFhCzA#4rafS6Ij2UDUNwINKhHzoWQTgDUBgduh_H0ORQ23sNY",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "off",
 // add your Session Id 
@@ -17,7 +17,7 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
 // set the auto reply massage on status reply  
-WELCOME: process.env.WELCOME || "false",
+WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
 GOODBYE: process.env.GOODBYE || "true",
 // true if want goodbye msg in groups 
@@ -36,7 +36,7 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://qu.ax/zrqFX.jpg",
 // add custom menu image url
 PREFIX: process.env.PREFIX || "@", 
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "",
+BOT_NAME: process.env.BOT_NAME || "> 🕯️🕊️D   A    R   K   S   E   I  D 🪫💔",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "⚠️👑⚜️",    
 VPS: process.env.VPS || "",
@@ -61,7 +61,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
 // false or true for anti bad words 
 ANTI_BOT: process.env.ANTI_BOT || "true",
-MODE: process.env.MODE || "private",
+MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "on",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
@@ -85,6 +85,6 @@ ANTI_VV: process.env.ANTI_VV || "true",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'same' if you want to resend deleted message in same chat 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // make it true for auto recoding 
 };
