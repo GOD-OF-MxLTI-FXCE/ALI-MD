@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~6BEFhCzA#4rafS6Ij2UDUNwINKhHzoWQTgDUBgduh_H0ORQ23sNY",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~KIlUlC7L#2g7dq5TUXWmJHd_Kbh-nqH7uLjE50p86w3P1Gdgwk6g",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "off",
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
@@ -17,9 +17,9 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
 // set the auto reply massage on status reply  
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome msg in groups
-GOODBYE: process.env.GOODBYE || "true",
+GOODBYE: process.env.GOODBYE || "false",
 // true if want goodbye msg in groups 
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
@@ -39,7 +39,7 @@ PREFIX: process.env.PREFIX || "@",
 BOT_NAME: process.env.BOT_NAME || "> 🕯️🕊️D   A    R   K   S   E   I  D 🪫💔",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "⚠️👑⚜️",    
-VPS: process.env.VPS || "",
+VPS: process.env.VPS || "> 🕯️🕊️D   A    R   K   S   E   I  D 🪫💔",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 OWNER_REACT: process.env.OWNER_REACT || "false",
@@ -54,16 +54,16 @@ DESCRIPTION: process.env.DESCRIPTION || "© ᴘσωєʀє∂ ву αℓι м∂�
 // add bot desp name    
 LIVE_MSG: process.env.LIVE_MSG || "HEY IM ALIVE",
 // add alive msg here 
-READ_MESSAGE: process.env.READ_MESSAGE || "true",
+READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
 // false or true for anti bad words 
-ANTI_BOT: process.env.ANTI_BOT || "true",
+ANTI_BOT: process.env.ANTI_BOT || "false",
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
-ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "on",
+ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "off",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
@@ -80,7 +80,7 @@ READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 DEV: process.env.DEV || "50932818924",
 //replace with your whatsapp number        
-ANTI_VV: process.env.ANTI_VV || "true",
+ANTI_VV: process.env.ANTI_VV || "false",
 // true for anti once view 
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
