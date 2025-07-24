@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'false') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~KIlUlC7L#2g7dq5TUXWmJHd_Kbh-nqH7uLjE50p86w3P1Gdgwk6g",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~fBkwXBhK#lyVHRhZvPw53J4_PcTmPFAA5Y1WJwv0qO8X-CpG9fHE",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "off",
 // add your Session Id 
@@ -23,8 +23,8 @@ GOODBYE: process.env.GOODBYE || "false",
 // true if want goodbye msg in groups 
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
-ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
+ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "true",
 ANTI_LINK_DELETE: process.env.ANTI_LINK_DELETE || "true",
 // make anti link true,false for groups
 ANTI_CALL: process.env.ANTI_CALL || "false",
@@ -85,6 +85,6 @@ ANTI_VV: process.env.ANTI_VV || "false",
 ANTI_DELETE: process.env.ANTI_DELETE || "true",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'same' if you want to resend deleted message in same chat 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
 // make it true for auto recoding 
 };
