@@ -9,17 +9,17 @@ SESSION_ID: process.env.SESSION_ID || "ALI-MD~fBkwXBhK#lyVHRhZvPw53J4_PcTmPFAA5Y
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "off",
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
 // set the auto reply massage on status reply  
-WELCOME: process.env.WELCOME || "false",
+WELCOME: process.env.WELCOME || "true",
 // true if want welcome msg in groups
-GOODBYE: process.env.GOODBYE || "false",
+GOODBYE: process.env.GOODBYE || "true",
 // true if want goodbye msg in groups 
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
