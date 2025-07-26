@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'false') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~mBFgkZhD#CMafE1L3uiCk-6RegGc0kA_sYLKzz1hQIeKyW65kCCU",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~HUUm3LZJ#mDD5YI5_oH9a1Bj67JLHEmhdCGHLn4trYq3AgnrDW3I",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "off",
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
@@ -34,7 +34,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 ALIVE_IMG: process.env.ALIVE_IMG || "https://qu.ax/zrqFX.jpg",
 // add custom menu image url
-PREFIX: process.env.PREFIX || "", 
+PREFIX: process.env.PREFIX || ".", 
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "> 🕯️🕊️D   A    R   K   S   E   I  D 🪫💔",
 // add bot namw here for menu
@@ -63,7 +63,7 @@ ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
 ANTI_BOT: process.env.ANTI_BOT || "false",
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
-ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "off",
+ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
@@ -72,7 +72,7 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
