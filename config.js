@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'false') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~fBkwXBhK#lyVHRhZvPw53J4_PcTmPFAA5Y1WJwv0qO8X-CpG9fHE",  
+SESSION_ID: process.env.SESSION_ID || "",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "off",
 // add your Session Id 
@@ -34,7 +34,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 ALIVE_IMG: process.env.ALIVE_IMG || "https://qu.ax/zrqFX.jpg",
 // add custom menu image url
-PREFIX: process.env.PREFIX || "@", 
+PREFIX: process.env.PREFIX || "", 
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "> 🕯️🕊️D   A    R   K   S   E   I  D 🪫💔",
 // add bot namw here for menu
