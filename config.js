@@ -34,7 +34,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 ALIVE_IMG: process.env.ALIVE_IMG || "https://qu.ax/zrqFX.jpg",
 // add custom menu image url
-PREFIX: process.env.PREFIX || "@", 
+PREFIX: process.env.PREFIX || ".", 
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "P ム P Ｕ",
 // add bot namw here for menu
